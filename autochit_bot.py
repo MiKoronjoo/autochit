@@ -112,4 +112,5 @@ def handle_callback_query(bot: Client, query: CallbackQuery):
         query.message.edit_text(query.message.text + f"\n\nتایید شد!\n[USER](tg://user?id={offer['cid']})", 'md')
 
 
-client.run()
+if __name__ == '__main__':
+    client.run()
