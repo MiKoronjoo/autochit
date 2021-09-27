@@ -134,3 +134,6 @@ dmypy.json
 
 # bot config file
 config.ini
+
+# bot session
+*.session
